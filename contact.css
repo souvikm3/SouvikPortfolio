@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Cedarville+Cursive&family=League+Gothic&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,100;1,300;1,600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+.contact .contact-info
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+}
+.contact .contact-info .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contact .contact-info .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+.contact .contact-info .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+.contact .contact-info .box .text h3
+{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
